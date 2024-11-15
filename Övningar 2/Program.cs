@@ -1,16 +1,16 @@
 ﻿ List<string> leksaker = [
-  "Hide and Seek",
-  "Tag",
-  "Videogames",
-  "Boardgames",    
-  "Toys",
-  "Cards",
+  "Barbie",
+  "Lightning Mcqueen",
+  "Buzz Lightyear",
+  "Thomas the tank engine",    
+  "Woody",
+  "Ken",
 ];
 
-for(int i = 0; i < leksaker.Count; i++)
-{
-    Console.WriteLine($"[{i}]{leksaker[i]}");
-}
+// for(int i = 0; i < leksaker.Count; i++)
+// {
+//     Console.WriteLine($"[{i}]{leksaker[i]}");
+// }
 
 
 List<string> klasskamrater = [
@@ -32,9 +32,13 @@ List<string> numbers = [
 ];
 
 List<string> cities =[
-    
+
 ];
 
+for(int i = 0; i < klasskamrater.Count; i++)
+{
+    Console.WriteLine($"{klasskamrater[i]} ger {leksaker[i]} betyget {numbers[i]}");
+}
 
 
 
