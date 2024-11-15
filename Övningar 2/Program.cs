@@ -22,6 +22,15 @@ List<string> klasskamrater = [
     "Imad",
 ];
 
+List<string> numbers = [
+    "7",
+    "1",
+    "5",
+    "8",
+    "2",
+    "0",
+];
+
 
 
 
