@@ -35,10 +35,10 @@ List<string> cities =[
 
 ];
 
-// for(int i = 0; i < klasskamrater.Count; i++)
-// {
-//     Console.WriteLine($"{klasskamrater[i]} ger {leksaker[i]} betyget {numbers[i]}");
-// }
+ for(int i = 0; i < klasskamrater.Count; i++)
+ { 
+     Console.WriteLine($"{klasskamrater[i]} ger {leksaker[i]} betyget {numbers[i]}");
+ }
 
 Console.WriteLine("\nAnge städer (skriv 'exit' för att avsluta):");
         while (true)
@@ -51,20 +51,11 @@ Console.WriteLine("\nAnge städer (skriv 'exit' för att avsluta):");
             cities.Add(input);
         }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+Console.WriteLine("\nDu angav följande städer:");
+        foreach (string city in cities)
+        {
+            Console.WriteLine(city);
+        }
 
 
 
